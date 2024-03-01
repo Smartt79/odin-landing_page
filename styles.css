@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #1F2937;
+    margin: 0 auto;
+    border-left: solid 40px black;
+    border-right: solid 40px black
+     
+    
+}
+header {
+    display: flex;
+    padding: 15px 150px 40px;
+    justify-content: space-between;
+
+}
+.Logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5em;
+    list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    
+}
+
+.Hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 150px;
+    gap: 20px;
+    min-height: 450px;
+    
+
+    
+}
+.Intro {
+   width: 40%;
+    
+       
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+    align-self: center;
+    padding-bottom: 1em;
+    
+}
+    
+.Button1 {
+        background-color: #3882F6;
+        color: #F9FAF8;
+        font-size: 18px;
+        padding: 0.5em 1.5em;
+        border-radius: 10px;
+    }    
+
+.Placeholder {
+    background-color: grey;
+    padding: 50px 100px;
+    width: 60%;
+    
+    
+}
+
+.Info {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px 100px;
+      
+    
+}
+h2 {
+    font: 36px bold #1F2937;
+    padding-top: 15px;
+    text-align: center;
+}
+.Pictures {
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+       
+}
+    
+.Image {
+    padding-bottom: 15px;
+    height: 150px;
+    width: 150px;
+    border: solid 4px #3882F6;
+    border-radius: 15px;
+    
+}
+.Text {
+    width: 150px; 
+    text-align: center;
+    
+}
+
+.Quotebox {
+    
+    min-height: 300px;
+    background-color: #E5E7EB;
+    
+}
+
+.Quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter; 
+    padding: 1.5em 10em;
+    text-align: start;
+
+}
+.Author {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: right;
+    padding-right: 12em;
+    padding-bottom: 2em;
+}
+.Action {
+    display: flex;
+    min-height: 200px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Call {
+    width: 80%;
+    background-color: #3882F6;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    
+}
+.Time {
+    padding: 1.5em;
+}
+h3 {
+    color: white;
+    font-size: 1.5em;
+}
+
+.Click {
+    padding: 1.5em;
+}
+.Button2 {
+   background-color: #3882F6;
+   color: white; 
+   border: solid 2px white;
+   padding: 0.5em 1.5em;
+   border-radius: 10px;
+}
+footer {
+    color: #F9FAF8;
+    text-align: center;
+    padding: 1em;
+}
